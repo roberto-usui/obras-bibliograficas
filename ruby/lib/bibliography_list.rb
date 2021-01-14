@@ -1,6 +1,6 @@
 class BibliographyList
-  SECONDARY_LASTNAME_REGEX = /^(FILH(A|O))|(NET(O|A))|(SOBRINH(O|A))|(JUNIOR)$/
-  PREPOSITION_REGEX = /^(D(E|(A|AS)|(O|OS)))$/
+  SECONDARY_LASTNAME_REGEX = /^((FILH(A|O))|(NET(O|A))|(SOBRINH(O|A))|(JUNIOR))$/
+  PREPOSITION_REGEX = /^((D(E|(A|AS)|(O|OS))))$/
 
   def initialize(fullnames)
     @fullnames = fullnames
